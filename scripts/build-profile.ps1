@@ -63,7 +63,7 @@ $header = @"
 <rect x="352" y="16" width="198" height="139" fill="url(#grid)"/>
 <ellipse cx="450" cy="88" rx="125" ry="95" fill="url(#glow)"/>
 <path d="M18 32V18H32M1168 18H1182V32M18 228V242H32M1168 242H1182V228" fill="none" stroke="#587440" stroke-width=".8"/>
-<text x="28" y="30" font-family="$mono" font-size="13" letter-spacing="1.5" fill="#9eb885">@SYCHEVNICK94</text>
+<text x="28" y="30" font-family="$mono" font-size="13" letter-spacing="1.5" fill="#9eb885">@SYCHEVNICK182</text>
 <g font-family="$font" font-size="67" font-weight="800" letter-spacing="-3">
 <text x="25" y="88" fill="#eef6e8">NIKITA</text>
 <text x="25" y="148" fill="$green">SYCHEV<tspan fill="#eef6e8">.</tspan></text>
@@ -80,7 +80,7 @@ $header = @"
 $($badges -join "`n")
 <text x="28" y="250" font-family="$mono" font-size="13" letter-spacing=".7" fill="#9eb885">ПЕРЕНОС С GITHUB.COM/NIKITA-SYCHEV182 · КОПИИ РЕПОЗИТОРИЕВ</text>
 <circle cx="1028" cy="245.5" r="3" fill="$green"/>
-<text x="1040" y="250" font-family="$mono" font-size="12" letter-spacing=".8" fill="$green">GITLAB PROFILE</text>
+<text x="1040" y="250" font-family="$mono" font-size="12" letter-spacing=".8" fill="$green">GITHUB PROFILE</text>
 </svg>
 "@
 Write-Asset 'header.svg' $header

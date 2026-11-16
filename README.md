@@ -1,4 +1,4 @@
-<img src="./assets/header.svg" width="1200" alt="Никита Сычёв — Python, Data, Automation. Веб-сервисы, API, боты, интеграции, данные, нейросети и интерфейсы с помощью AI. Стек: Python, FastAPI, Django, PostgreSQL, Docker, Linux, Git, HTML, CSS, JavaScript. Профиль на GitLab — дублёр github.com/nikita-sychev182; здесь размещены перенесённые копии репозиториев." />
+<img src="./assets/header.svg" width="1200" alt="Никита Сычёв — Python, Data, Automation. Веб-сервисы, API, боты, интеграции, данные, нейросети и интерфейсы с помощью AI. Стек: Python, FastAPI, Django, PostgreSQL, Docker, Linux, Git, HTML, CSS, JavaScript. Профиль на GitHub — дублёр github.com/nikita-sychev182; здесь размещены перенесённые копии репозиториев." />
 
 <p>
 <a href="https://t.me/sychnick182"><img src="./assets/telegram.svg" alt="Написать в Telegram: @sychnick182" height="28" /></a>&nbsp;
