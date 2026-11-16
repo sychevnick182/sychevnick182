@@ -1,4 +1,4 @@
-<img src="./assets/header.svg" width="1200" alt="Никита Сычёв — Python, Data, Automation. @sychevnick182" />
+<img src="./assets/header-github.svg" width="1200" alt="Никита Сычёв — Python, Data, Automation. @sychevnick182" />
 
 <br />
 

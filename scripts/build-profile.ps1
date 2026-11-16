@@ -74,7 +74,7 @@ $header = @"
 <text x="1080" y="361" font-family="$mono" font-size="17" fill="#9eb885">[ NS ]</text>
 </svg>
 "@
-Write-Asset 'header.svg' $header
+Write-Asset 'header-github.svg' $header
 
 $contactIcons = @{
     telegram = '<path d="m3 10 18-7-5 18-6-7-7-4Zm7 4 11-11M10 14l-1 5 4-2"/>'
