@@ -1,3 +1,5 @@
+> Этот профиль на GitLab — дублёр моего профиля [nikita-sychev182 на GitHub](https://github.com/nikita-sychev182). Здесь размещены перенесённые копии моих репозиториев.
+
 <img src="./assets/header.svg" width="100%" alt="Nikita Sychev — Python, Data, Automation" />
 
 <p>
