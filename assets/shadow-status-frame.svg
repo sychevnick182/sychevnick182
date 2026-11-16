@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+  <title>Временно работаю здесь пока основной аккаунт в тени</title>
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#526d3a" opacity=".22"/></pattern>
+  </defs>
+  <rect width="1200" height="430" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="1199" height="429" rx="14" fill="#0d1410" stroke="#2e3e28"/>
+  <rect x="24" y="24" width="466" height="380" fill="url(#dots)"/>
+  <path d="M26 48V26H48M1152 26H1174V48M26 382V404H48M1152 404H1174V382" fill="none" stroke="#587440"/>
+  <circle cx="59" cy="72" r="4" fill="#c4fa6a"/>
+  <text x="76" y="78" font-family="Consolas,monospace" font-size="16" letter-spacing="2" fill="#9eb885">ТЕКУЩИЙ СТАТУС</text>
+  <g font-family="Consolas,DejaVu Sans Mono,monospace" font-size="32" font-weight="bold">
+    <text x="56" y="159" fill="#eef6e8">Временно работаю</text>
+    <text x="56" y="205" fill="#eef6e8">здесь пока основной</text>
+    <text x="56" y="251" fill="#c4fa6a">аккаунт в тени</text>
+  </g>
+  <path d="M58 297H440" stroke="#34472b"/>
+  <text x="57" y="334" font-family="Consolas,monospace" font-size="16" fill="#9eb885">github.com/nikita-sychev182</text>
+  <path d="M57 359h25" stroke="#c4fa6a" stroke-width="3"/>
+  <path d="M494 55V375" stroke="#2e3e28"/>
+  <rect x="528.5" y="33.5" width="643" height="363" fill="#080d0b" stroke="#4b6637"/>
+</svg>
