@@ -52,35 +52,26 @@ $torusNode.SetAttribute('stroke-width', '1.5')
 $torusNode.SetAttribute('opacity', '.95')
 $torus = $torusXml.DocumentElement.InnerXml
 $header = @"
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
 <title id="title">Nikita Sychev — Python, Data, Automation</title>
-<desc id="description">Веб-сервисы, API, боты и интеграции. Данные, нейросети и автоматизация. Интерфейсы с помощью AI. Python, FastAPI, Django, PostgreSQL, Docker, Linux, Git, HTML, CSS, JavaScript. Этот профиль — дублёр github.com/nikita-sychev182.</desc>
+<desc id="description">Никита Сычёв. Разработка на Python, работа с данными и автоматизация. Профиль @sychevnick182.</desc>
 <defs>
-<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#526d3a" opacity=".4"/></pattern>
-<radialGradient id="glow"><stop stop-color="#90c246" stop-opacity=".09"/><stop offset="1" stop-color="#90c246" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#526d3a" opacity=".4"/></pattern>
+<radialGradient id="glow"><stop stop-color="#90c246" stop-opacity=".14"/><stop offset="1" stop-color="#90c246" stop-opacity="0"/></radialGradient>
 </defs>
-<rect x=".5" y=".5" width="1199" height="259" rx="10" fill="#0d1410" stroke="#2e3e28"/>
-<rect x="352" y="16" width="198" height="139" fill="url(#grid)"/>
-<ellipse cx="450" cy="88" rx="125" ry="95" fill="url(#glow)"/>
-<path d="M18 32V18H32M1168 18H1182V32M18 228V242H32M1168 242H1182V228" fill="none" stroke="#587440" stroke-width=".8"/>
-<text x="28" y="30" font-family="$mono" font-size="13" letter-spacing="1.5" fill="#9eb885">@SYCHEVNICK182</text>
-<g font-family="$font" font-size="67" font-weight="800" letter-spacing="-3">
-<text x="25" y="88" fill="#eef6e8">NIKITA</text>
-<text x="25" y="148" fill="$green">SYCHEV<tspan fill="#eef6e8">.</tspan></text>
+<rect x=".5" y=".5" width="1199" height="399" rx="14" fill="#0d1410" stroke="#2e3e28"/>
+<rect x="680" y="28" width="490" height="340" fill="url(#grid)"/>
+<ellipse cx="920" cy="200" rx="270" ry="190" fill="url(#glow)"/>
+<path d="M26 48V26H48M1152 26H1174V48M26 352V374H48M1152 374H1174V352" fill="none" stroke="#587440"/>
+<text x="58" y="61" font-family="$mono" font-size="17" letter-spacing="2" fill="#9eb885">@SYCHEVNICK182</text>
+<g font-family="$font" font-size="112" font-weight="800" letter-spacing="-5">
+<text x="52" y="182" fill="#eef6e8">NIKITA</text>
+<text x="52" y="287" fill="$green">SYCHEV<tspan fill="#eef6e8">.</tspan></text>
 </g>
-<g transform="translate(450 91) scale(.34) translate(-935 -200)">$torus</g>
-<path d="M569 28V148" stroke="#34472b"/>
-<text x="598" y="36" font-family="$mono" font-size="16" letter-spacing="1.2" fill="$green">PYTHON / DATA / AUTOMATION</text>
-<g font-family="$font" font-size="22" fill="#d5e2cd">
-<text x="598" y="77">Веб-сервисы, API, боты и интеграции.</text>
-<text x="598" y="109">Данные, нейросети и автоматизация.</text>
-<text x="598" y="141">Интерфейсы с помощью AI.</text>
-</g>
-<path d="M28 165H1172M28 232H1172" stroke="#2e3e28"/>
-$($badges -join "`n")
-<text x="28" y="250" font-family="$mono" font-size="13" letter-spacing=".7" fill="#9eb885">ПЕРЕНОС С GITHUB.COM/NIKITA-SYCHEV182 · КОПИИ РЕПОЗИТОРИЕВ</text>
-<circle cx="1028" cy="245.5" r="3" fill="$green"/>
-<text x="1040" y="250" font-family="$mono" font-size="12" letter-spacing=".8" fill="$green">GITHUB PROFILE</text>
+<g transform="translate(920 196) scale(1) translate(-935 -200)">$torus</g>
+<path d="M60 325H1140" stroke="#2e3e28"/>
+<text x="58" y="361" font-family="$mono" font-size="21" letter-spacing="2" fill="$green">PYTHON / DATA / AUTOMATION</text>
+<text x="1080" y="361" font-family="$mono" font-size="17" fill="#9eb885">[ NS ]</text>
 </svg>
 "@
 Write-Asset 'header.svg' $header
